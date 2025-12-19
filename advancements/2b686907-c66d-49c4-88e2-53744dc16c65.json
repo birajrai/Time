@@ -2465,6 +2465,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/redstone/trapped_chest": {
+    "criteria": {
+      "has_tripwire_hook": "2025-12-18 23:53:47 +0545"
+    },
+    "done": true
+  },
   "minecraft:recipes/combat/leather_helmet": {
     "criteria": {
       "has_leather": "2025-12-18 23:56:32 +0545"
@@ -2483,12 +2489,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/redstone/trapped_chest": {
-    "criteria": {
-      "has_tripwire_hook": "2025-12-18 23:53:47 +0545"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/leather_horse_armor": {
     "criteria": {
       "has_leather": "2025-12-18 23:56:32 +0545"
@@ -2498,12 +2498,6 @@
   "minecraft:recipes/combat/saddle": {
     "criteria": {
       "has_leather": "2025-12-18 23:56:32 +0545"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/black_dye": {
-    "criteria": {
-      "has_ink_sac": "2025-12-19 00:28:32 +0545"
     },
     "done": true
   },
@@ -2522,6 +2516,12 @@
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_bowl": "2025-12-19 00:00:21 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-12-19 00:28:32 +0545"
     },
     "done": true
   },
