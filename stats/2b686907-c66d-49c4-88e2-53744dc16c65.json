@@ -75,9 +75,6 @@
       "minecraft:ender_pearl": 1,
       "minecraft:trial_key": 3
     },
-    "minecraft:killed_by": {
-      "minecraft:zombie": 1
-    },
     "minecraft:custom": {
       "minecraft:time_since_rest": 67173,
       "minecraft:leave_game": 9,
@@ -85,7 +82,6 @@
       "minecraft:mob_kills": 155,
       "minecraft:boat_one_cm": 225205,
       "minecraft:damage_absorbed": 120,
-      "minecraft:time_since_death": 387838,
       "minecraft:interact_with_brewingstand": 3,
       "minecraft:interact_with_furnace": 157,
       "minecraft:sleep_in_bed": 18,
