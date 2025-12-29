@@ -18,10 +18,16 @@
       "minecraft:snowy_plains": "2025-12-12 22:36:04 +0545",
       "minecraft:lush_caves": "2025-12-12 21:34:08 +0545",
       "minecraft:snowy_taiga": "2025-12-12 21:10:11 +0545",
+      "minecraft:dripstone_caves": "2025-12-29 21:29:02 +0545",
+      "minecraft:frozen_peaks": "2025-12-29 22:53:36 +0545",
       "minecraft:frozen_ocean": "2025-12-12 22:00:40 +0545",
       "minecraft:frozen_river": "2025-12-12 21:12:06 +0545",
       "minecraft:windswept_forest": "2025-12-25 19:26:08 +0545",
+      "minecraft:deep_frozen_ocean": "2025-12-29 21:15:59 +0545",
+      "minecraft:deep_dark": "2025-12-29 21:32:49 +0545",
       "minecraft:swamp": "2025-12-12 23:15:59 +0545",
+      "minecraft:grove": "2025-12-29 22:08:48 +0545",
+      "minecraft:meadow": "2025-12-29 21:26:37 +0545",
       "minecraft:old_growth_spruce_taiga": "2025-12-12 22:44:13 +0545",
       "minecraft:snowy_beach": "2025-12-12 21:11:51 +0545"
     },
@@ -873,17 +879,19 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:zombie_nautilus": "2025-12-30 00:00:01 +0545",
       "minecraft:skeleton": "2025-12-12 21:34:16 +0545",
-      "minecraft:piglin": "2025-12-25 19:22:38 +0545",
       "minecraft:phantom": "2025-12-12 23:04:56 +0545",
+      "minecraft:husk": "2025-12-19 16:53:39 +0545",
+      "minecraft:bogged": "2025-12-25 19:38:26 +0545",
+      "minecraft:piglin": "2025-12-25 19:22:38 +0545",
       "minecraft:breeze": "2025-12-19 16:53:40 +0545",
       "minecraft:enderman": "2025-12-19 15:28:26 +0545",
       "minecraft:spider": "2025-12-12 21:37:10 +0545",
       "minecraft:zombie": "2025-12-12 21:33:38 +0545",
       "minecraft:creeper": "2025-12-12 23:04:45 +0545",
-      "minecraft:zombie_villager": "2025-12-18 22:22:56 +0545",
-      "minecraft:husk": "2025-12-19 16:53:39 +0545",
-      "minecraft:bogged": "2025-12-25 19:38:26 +0545"
+      "minecraft:drowned": "2025-12-29 23:59:52 +0545",
+      "minecraft:zombie_villager": "2025-12-18 22:22:56 +0545"
     },
     "done": false
   },
@@ -3002,30 +3010,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/book": {
-    "criteria": {
-      "has_paper": "2025-12-25 19:12:48 +0545"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:nether_wastes": "2025-12-25 19:22:02 +0545"
-    },
-    "done": false
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2025-12-25 19:22:01 +0545"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/snow": {
-    "criteria": {
-      "has_snowball": "2025-12-25 19:15:55 +0545"
-    },
-    "done": true
-  },
   "minecraft:recipes/food/bread": {
     "criteria": {
       "has_wheat": "2025-12-25 19:08:51 +0545"
@@ -3035,6 +3019,30 @@
   "minecraft:recipes/building_blocks/hay_block": {
     "criteria": {
       "has_wheat": "2025-12-25 19:08:51 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2025-12-25 19:12:48 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2025-12-25 19:12:48 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-12-25 19:15:55 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-12-25 19:15:55 +0545"
     },
     "done": true
   },
@@ -3050,21 +3058,87 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-12-25 19:22:01 +0545"
+    },
+    "done": true
+  },
   "minecraft:nether/root": {
     "criteria": {
       "entered_nether": "2025-12-25 19:22:01 +0545"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/cartography_table": {
+  "minecraft:nether/explore_nether": {
     "criteria": {
-      "has_paper": "2025-12-25 19:12:48 +0545"
+      "minecraft:nether_wastes": "2025-12-25 19:22:02 +0545"
+    },
+    "done": false
+  },
+  "minecraft:adventure/avoid_vibration": {
+    "criteria": {
+      "avoid_vibration": "2025-12-29 21:34:29 +0545"
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/snow_block": {
+  "minecraft:recipes/tools/spyglass": {
     "criteria": {
-      "has_snowball": "2025-12-25 19:15:55 +0545"
+      "has_amethyst_shard": "2025-12-29 21:46:24 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/calibrated_sculk_sensor": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-29 21:46:24 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/tinted_glass": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-29 21:46:24 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/amethyst_block": {
+    "criteria": {
+      "has_amethyst_shard": "2025-12-29 21:46:24 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-12-29 23:46:14 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-12-29 23:46:14 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/pumpkin_seeds": {
+    "criteria": {
+      "has_pumpkin": "2025-12-30 00:13:40 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/pumpkin_pie": {
+    "criteria": {
+      "has_pumpkin": "2025-12-30 00:13:40 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-12-29 23:46:14 +0545"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/wheat": {
+    "criteria": {
+      "has_hay_block": "2025-12-29 23:44:17 +0545"
     },
     "done": true
   },
